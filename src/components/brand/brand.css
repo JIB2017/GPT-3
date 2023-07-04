@@ -1,0 +1,23 @@
+.gpt3__brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 46.48px;
+}
+
+.gpt3__brand div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    min-width: 120px;
+    max-width: 150px;
+}
+
+/* .brand img {
+    width: 90px;
+    height: 24.5px;
+    object-fit: contain;
+} */
