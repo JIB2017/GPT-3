@@ -3,7 +3,7 @@ import "./cta.css";
 
 function CTA() {
   return (
-    <div className='gpt3__cta'>
+    <div className='gpt3__cta' data-aos="zoom-in">
       <div className='gpt3__cta-container'>
         <div className='gpt3__cta-content'>
           <h4>Request Early Access to Get Started</h4>

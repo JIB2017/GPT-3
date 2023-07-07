@@ -5,7 +5,7 @@ import possibility from "../../assets/possibility.png";
 function Possibility() {
   return (
     <div className='gpt3__possibility section__padding' id='possibility'>
-      <div className='gpt3__possibility-image'>
+      <div className='gpt3__possibility-image' data-aos="fade-down">
         <img src={possibility} alt="possibility" />
       </div>
       <div className='gpt3__possibility-content'>

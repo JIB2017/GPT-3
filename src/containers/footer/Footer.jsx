@@ -5,7 +5,7 @@ import logo from "../../assets/logo.svg";
 function Footer() {
   return (
     <div className='gpt3__footer'>
-      <div className='gpt3__footer-title'>
+      <div className='gpt3__footer-title' data-aos="zoom-in">
         <h1 className='gradient__text'>Do you want to step in to the <br />future before others</h1>
       </div>
       <div className='gpt3__footer-btn'>

@@ -9,7 +9,7 @@ import shopify from "../../assets/shopify.png";
 
 function Brand() {
   return (
-    <div className="gpt3__brand">
+    <div className="gpt3__brand" data-aos="fade-down">
       <div>
         <img src={google} alt="google" />
       </div>
