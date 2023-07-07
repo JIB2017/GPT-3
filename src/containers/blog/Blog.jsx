@@ -5,7 +5,7 @@ import { blog01, blog02, blog03, blog04, blog05 } from "./index";
 
 function Blog() {
   return (
-    <div className="gpt3__blog section__margin" id="blog">
+    <div className="gpt3__blog " id="blog">
       <h1 className="gradient__text">
         A lot is happening,
         <br /> We are blogging about it.

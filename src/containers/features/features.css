@@ -42,6 +42,28 @@
   margin-right: 3rem;
 }
 
-.gpt3__features-container  p {
+.gpt3__features-container p {
   max-width: 334px;
+}
+
+@media screen and (max-width: 1050px) {
+  .gpt3__features {
+    flex-direction: column;
+  }
+
+  .gpt3__features-heading {
+    margin-right: 0rem;
+    margin-bottom: 3rem;
+  }
+
+  .gpt3__features-container {
+    margin-right: 0rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3__features-heading h1 {
+    font-size: 30px;
+    line-height: 43px;
+  }
 }

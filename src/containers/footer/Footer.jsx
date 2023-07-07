@@ -11,7 +11,7 @@ function Footer() {
       <div className='gpt3__footer-btn'>
         <button type='button'>Request Early Access</button>
       </div>
-      <div className='gpt3__footer-links section__margin'>
+      <div className='gpt3__footer-links'>
         <div className='gpt3__footer-links_logo'>
           <img src={logo} alt="logo" />
           <p>Crechterwoord K12 182 DK <br />Alknjkcb, All Rights Reserved</p>

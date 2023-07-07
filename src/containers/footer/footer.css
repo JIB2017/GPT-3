@@ -18,6 +18,7 @@
   font-weight: 800;
   line-height: 75px;
   letter-spacing: -0.04em;
+  transition: 0.3s;
   text-align: center;
 }
 
@@ -35,9 +36,19 @@
   color: #fff;
   padding: 1.5rem 2rem;
   font-family: var(--font-family);
+  font-weight: 700;
   font-size: 18px;
   line-height: 21px;
   text-align: left;
+  border: 1px solid;
+  cursor: pointer;
+  border-radius: 45px;
+  transition: 0.3s;
+}
+
+.gpt3__footer-btn button:hover {
+  background: #fff;
+  color: black;
   border: 1px solid;
 }
 
@@ -45,6 +56,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 4rem 6rem;
 }
 
 .gpt3__footer-links_logo {
@@ -66,13 +78,14 @@
   font-size: 12px;
   line-height: 18px;
   text-align: left;
-  color: #fff;
+  color: grey;
 }
 
 .gpt3__footer-links_links {
   flex: 1;
   display: flex;
   flex-direction: column;
+  
 }
 
 .gpt3__footer-links_links h4 {
@@ -86,7 +99,7 @@
   font-size: 18px;
   font-family: var(--font-family);
   line-height: 20px;
-  color: #fff;
+  color: grey;
   margin: 1rem 0;
 }
 
@@ -101,4 +114,63 @@
   font-size: 18px;
   text-align: left;
   margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 850px) {
+  .gpt3__footer-title h1 {
+    font-size: 46px;
+    line-height: 75px;
+    text-align: center;
+  }
+
+  .gpt3__footer-btn button {
+    padding: 1.3rem 1.8rem;
+    font-size: 16px;
+  }
+
+  .gpt3__footer-links {
+    margin: 2rem 4rem;
+  }
+
+  .gpt3__footer-links_logo {
+    margin-left: -2rem;
+    margin-right: 2rem;
+  }
+
+  .gpt3__footer-links_links h4 {
+    font-size: 18px;
+    margin-bottom: 0.1rem;
+  }
+  
+  .gpt3__footer-links_links p {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0.6rem 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .gpt3__footer-title h1 {
+    font-size: 28px;
+    line-height: 50px;
+  }
+
+  .gpt3__footer-links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gpt3__footer-links_logo {
+    margin: 0;
+  }
+
+  .gpt3__footer-links_logo p {
+    margin-bottom: 1.5rem;
+  }
+
+  .gpt3__footer-links_links {
+    justify-content: center;
+    align-items: center;
+  }
 }

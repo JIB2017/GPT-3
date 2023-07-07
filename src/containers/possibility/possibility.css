@@ -57,3 +57,26 @@
   text-align: left;
   color: var(--color-subtext);
 }
+
+@media screen and (max-width: 950px) {
+  .gpt3__possibility {
+    flex-direction: column;
+  }
+  .gpt3__possibility-image img {
+    width: 75%;
+    height: 75%;
+    margin-right: 0rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .gpt3__possibility-content h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .gpt3__possibility-content p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+}

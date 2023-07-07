@@ -130,6 +130,7 @@
 
   .gpt3__header-image {
     margin-top: 2rem;
+    display: none;
   }
 
   .gpt3__header-content__input {
@@ -198,38 +199,25 @@
 
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 490px) {
   .gtp3__header {
     flex-direction: column;
   }
 
   .gpt3__header-content h1 {
-    font-size: 45px;
-    line-height: 55px;
+    font-size: 40px;
+    line-height: 50px;
   }
 
   .gpt3__header-content p {
-    font-size: 18px;
+    font-size: 14px;
     margin-top: 1rem;
   }
 
-  .gpt3__header-image {
-    margin-top: 2rem;
-  }
-
-  .gpt3__header-content__input {
-    margin: 1.4rem 0 0.4rem;
-  }
-
-  .gpt3__header-content__input input {
-    font-size: 14px;
+  .gpt3__header-content__input input button {
+    font-size: 12px;
     max-height: 60px;
-  }
-
-  .gpt3__header-content__input button {
-    font-size: 14px;
-    min-height: 60px;
-    line-height: 20px;
+    line-height: 16px;
   }
 
   .gpt3__header-content__people {
