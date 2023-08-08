@@ -1,8 +1,8 @@
-# GPT3 Technology
+# GPT-3 Technology
 
 ![GPT3](https://github.com/JIB2017/GPT-3/assets/31837873/b7756d41-bd92-43a1-9e2e-70b19365a751)
 
-Un sitio web excelente para mostrar servicios de IA usando tecnología GPT3, completamente mobile responsive.
+Un sitio web excelente para mostrar servicios de IA usando tecnología GPT-3, completamente mobile responsive.
 
 ## Como se hizo:
 
